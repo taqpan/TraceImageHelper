@@ -3,7 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525" WindowStyle="None" ResizeMode="NoResize"
         Loaded="MainWindow_OnLoaded" Topmost="True"
-        AllowsTransparency="True" Opacity="0.3" Background="Gray" Icon="/TraceImageHelper;component/trace.ico">
+        AllowsTransparency="True" Opacity="0.5" Background="Gray"
+        KeyDown="MainWindow_OnKeyDown"
+        MouseWheel="MainWindow_OnMouseWheel"
+        Icon="/TraceImageHelper;component/trace.ico">
     <DockPanel>
         <DockPanel.ContextMenu>
             <ContextMenu>
